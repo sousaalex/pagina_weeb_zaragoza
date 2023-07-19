@@ -76,7 +76,11 @@ $(window).scroll(function(){
      $('html').animate({scrollTop: 0});
  });
 
-
-
+    // Função scrollToTop() para rolagem suave no botão scroll-to-top
+    function scrollToTop() {
+        if (window.innerWidth <= 768) { // Verifica se é um dispositivo móvel
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+        }
+    }
 
  

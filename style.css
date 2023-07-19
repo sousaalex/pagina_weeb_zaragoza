@@ -87,7 +87,9 @@
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
-    scroll-behavior: smooth;
+    
+    
+    -behavior: smooth;
   }
 }
 
@@ -11530,11 +11532,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 margin-top: 3%;
 }
 
-.scroll-to-top{
-  margin-left: 90%;
-  margin-top: 10%;
+html {
+  scroll-behavior: smooth;
 }
 
+/* Estilização opcional para o botão de rolagem */
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
