@@ -11490,7 +11490,7 @@ a{
 
 .flag-icon {
   width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
-  height: auto;
+  height: auto; /* Ajuste o tamanho da imagem conforme necessário */
   margin-left: 8vh;
   margin-right: 7vh;
   border-radius: 50vh;
