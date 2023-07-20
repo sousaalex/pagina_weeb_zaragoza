@@ -1,5 +1,9 @@
 body {
   background: #1b1d20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Definir altura do body como 100% da viewport para centralização vertical */
 }
 
 img {
@@ -9,9 +13,9 @@ img {
 
 .slide {
   max-width: 380px;
-  margin: 20px auto;
   display: grid;
   box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+  /* Remover a margem superior para centralizar verticalmente */
 }
 
 .slide-items {
@@ -85,15 +89,36 @@ img {
   margin-top: 20px; /* Ajuste o valor conforme necessário */
 }
 
-button {
+/* Estilo do botão */
+.button-back {
   padding: 10px 20px;
   background-color: #ffc800;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
+  position: fixed; /* Fixar o botão na tela */
+  top: 5%; /* Posicionar na parte superior */
+  left: 5%; /* Posicionar no canto esquerdo */
+  display: flex; /* Utilizar flexbox para centralizar a seta verticalmente */
+  align-items: center; /* Centralizar a seta verticalmente */
 }
-button:hover{
-background-color: #d9aa00;
+
+/* Pseudo-elemento ::before para criar a seta */
+.button-back::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 13px; /* Ajuste o valor para posicionar a seta horizontalmente */
+  margin-top: -6px; /* Ajuste o valor para posicionar a seta verticalmente */
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid rgb(0, 0, 0); /* Cor da seta */
+}
+
+/* Estilo quando o botão é hover */
+.button-back:hover {
+  background-color: #999990;
 }

@@ -11139,7 +11139,7 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+   border: 0px solid #e9ecef; 
   border-radius: 100%;
   background-color: #ffc800;
 }
@@ -11361,7 +11361,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 #empresas .empresas-item .empresas-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #fff; 
+
 }
 #empresas .empresas-item .empresas-caption .empresas-caption-heading {
   font-size: 1.5rem;
@@ -11413,91 +11414,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .empresas-modal .close-modal:hover {
   opacity: 0.3;
 }
-/* ---------------------------------------------------------------------------------------------------------- */
 
-/* #residencia .residencia-item {
-  max-width: 26rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-#residencia .residencia-item .empresas-link {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-}
-#residencia .residencia-item .residencia-link .residencia-hover {
-  display: flex;
-  position: 100%;
-  width: 100%;
-  height: 100%; 
-  background: rgba(255, 200, 0, 0.9);
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity ease-in-out 0.25s;
-}
-#residencia .residencia-item .residencia-link .residencia-hover .residencia-hover-content {
-  font-size: 1.25rem;
-  color: white;
-}
-#residencia .residencia-item .residencia-link:hover .residencia-hover {
-  opacity: 1;
-}
-#residencia .residencia-item .residencia-caption {
-  padding: 1.5rem;
-  text-align: center;
-  background-color: #fff;
-}
-#residencia .residencia-item .residencia-caption .residencia-caption-heading {
-  font-size: 1.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  margin-bottom: 0;
-}
-#residencia .residencia-item .residencia-caption .residencia-caption-subheading {
-  font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-} */
-/* 
-.residencia-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
-}
-.residencia-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  text-align: center;
-}
-.residencia-modal .modal-content h2, .residencia-modal .modal-content .h2 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
-.residencia-modal .modal-content p.item-intro {
-  font-style: italic;
-  margin-bottom: 2rem;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.residencia-modal .modal-content p {
-  margin-bottom: 2rem;
-}
-.residencia-modal .modal-content ul.list-inline {
-  margin-bottom: 2rem;
-}
-.residencia-modal .modal-content img {
-  margin-bottom: 2rem;
-}
-.residencia-modal .close-modal {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
-  cursor: pointer;
-  background-color: transparent;
-}
-.residencia-modal .close-modal:hover {
-  opacity: 0.3;
-} */
 
 .text-uppercase{
   text-align: center;
@@ -11518,6 +11435,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .img-fluid {
   margin-top: -3%;
+  border-top-left-radius: 5%; 
+  border-top-right-radius: 5%;
  
 }
 
@@ -11578,5 +11497,11 @@ a{
 }
 
 
+.rounded-circle {
+  width: 190;
+    height: 110;/* Ajuste o tamanho do container conforme necessário */
+  border-radius: 50%; /* Tornar o container redondo */
+  overflow: hidden; /* Garantir que a imagem não ultrapasse os limites do container */
 
+}
 /* ------------------------------------------------- */
