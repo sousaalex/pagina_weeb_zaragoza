@@ -11435,8 +11435,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .img-fluid {
   margin-top: -3%;
-  border-top-left-radius: 5%; 
-  border-top-right-radius: 5%;
+border-radius: 3%;
  
 }
 
@@ -11491,6 +11490,7 @@ a{
 .flag-icon {
   width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
   height: auto; /* Ajuste o tamanho da imagem conforme necessário */
+
   margin-left: 8vh;
   margin-right: 7vh;
   border-radius: 50vh;
