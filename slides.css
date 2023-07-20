@@ -99,7 +99,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   position: fixed; /* Fixar o botão na tela */
-  top: 15%; /* Posicionar na parte superior */
+  top: 5%; /* Posicionar na parte superior */
   left: 5%; /* Posicionar no canto esquerdo */
   display: flex; /* Utilizar flexbox para centralizar a seta verticalmente */
   align-items: center; /* Centralizar a seta verticalmente */
